@@ -5,10 +5,10 @@ export default function Gallery() {
   const [selectedImage, setSelectedImage] = useState(null);
 
   const projects = [
-    { before: "public/bath.jpg", after: "public/bath2.jpg", title: "Shower" },
-    { before: "public/bb.jpg", after: "public/bb2.jpg", title: "Bathtub" },
-    { before: "public/c1.jpg", after: "public/c2.jpg", title: "Counters" },
-    { before: "public/sink.jpg", after: "public/sink2.jpg", title: "Kitchen" },
+    { before: "/bath.jpg", after: "/bath2.jpg", title: "Shower" },
+    { before: "/bb.jpg", after: "/bb2.jpg", title: "Bathtub" },
+    { before: "/c1.jpg", after: "/c2.jpg", title: "Counters" },
+    { before: "/sink.jpg", after: "/sink2.jpg", title: "Kitchen" },
   ];
 
   return (
